@@ -1,0 +1,5 @@
+doce/_build
+build/
+
+# Ignore .hgignore for contributors using Mercurial.
+.hgignore
