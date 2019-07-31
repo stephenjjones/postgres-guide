@@ -25,3 +25,11 @@ Commands::
     =# CREATE DATABASE your_db OWNER yourdbuser ENCODING 'UTF8';
 
     =# \q      quit database
+    
+    =# ALTER TABLE table_name RENAME COLUMN column_name TO new_column_name;
+
+    =# ALTER TABLE assets ALTER COLUMN name TYPE VARCHAR;
+    
+    =# ALTER TABLE table_name ALTER COLUMN column_name SET DEFAULT NULL;
+    
+    =# ALTER TABLE customers ADD COLUMN contact_name VARCHAR NOT NULL;
