@@ -33,3 +33,5 @@ Commands::
     =# ALTER TABLE table_name ALTER COLUMN column_name SET DEFAULT NULL;
     
     =# ALTER TABLE customers ADD COLUMN contact_name VARCHAR NOT NULL;
+
+    =# ALTER TABLE mytable ALTER COLUMN mycolumn DROP NOT NULL;
